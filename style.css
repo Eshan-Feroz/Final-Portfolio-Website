@@ -1,0 +1,99 @@
+h1{
+    color:blue;
+    margin-left: 30px;
+}
+
+*{
+    border:solid;
+}
+ 
+.header{
+    background-color: rgb(255, 165, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    background-color: #4c9196;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: #EBEB82;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p, h2{
+    color: rgb(105, 14, 14);
+    text-align: center;
+}
+
+.aboutmebg{
+    background-color: #7accec;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header2{
+    background-color: #FFA500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header * {
+    border:solid;
+}
+
+.menu{
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.menu a{
+    margin: 20px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: black;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.bg{
+    color: rgb(92, 168, 25);
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(155, 170, 211);
+}
